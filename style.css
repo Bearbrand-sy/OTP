@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f4fc;
+  color: #4a148c;
+}
+
+.auth-container {
+  width: 300px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  background: #7e57c2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5e35b1;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: #4a148c;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile {
+  margin-right: 20px;
+}
+
+.logout {
+  background: #d32f2f;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background: #b71c1c;
+}
